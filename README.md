@@ -15,7 +15,7 @@ go-go-gadget
 ![Gif demo](gadget-demo.gif)
 
 
-Want this? copy me to you .bash_aliases;
+Want this? copy me to your .bash_profile or .bash_aliases;
 
 ```
 alias go-go-gadget='git clone https://github.com/lukeylunchbox/go-go-gadget && mv go-go-gadget go-go-gadget-react-app && cd go-go-gadget-react-app && npm install && yarn start && code .'
