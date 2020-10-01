@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Default from './components/Default'
 import Home from './components/Home'
@@ -8,8 +8,7 @@ import Error from './components/Error'
 import Navigation from './components/Navigation'
 
 
-class App extends Component {
-  render() {
+function App {
     return (
         <BrowserRouter>
           <div>
@@ -24,7 +23,6 @@ class App extends Component {
           </div>
         </BrowserRouter>
     );
-  }
 }
 
 export default App;
